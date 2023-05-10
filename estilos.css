@@ -4,8 +4,8 @@
 #videoprin{
 
 }
-#sidebar{
-    border: solid lightsalmon 3px;
+.sidebar{
+    border: 3px solid lightsalmon;
     width: 250px;
-    height: 550px;
+    height: 50px;
 }
