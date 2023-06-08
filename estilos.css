@@ -1,44 +1,84 @@
-header {
-    background: grey;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  nav {
-    float: left;
-  }
-  nav ul {
-    list-style: none;
-    overflow: hidden; 
-  }
-  nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
-  }
-  nav ul li a {
-    display: block; 
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-  }
-  nav ul li:hover {
-    background: #eca023;
+/**header {
+  background: grey;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+nav {
+  float: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #eca023;
+}
+*/
+
+ nav {
+   width:20%;
+   max-height:0px;
+   overflow:hidden;
+   transition: 1s all; 
+ }
+ .mostrar {
+       max-height:300px;
+ }
+ nav ul {
+   list-style:none;
+ }
+ 
+ nav ul li a{
+   text-decoration:none;
+   display:block;
+   /**line-height:50px;**/
+   border-bottom:1px solid #222;
+   color:#222;
+   font-size:1.2em;
+   /**padding:10px;**/
+ }
+ 
+ nav ul li a:hover {
+   background-color:#222;
+   color:#fff;
+ }
+ 
+ .menu {
+   color:#fff;
+   width: 20px;
+   cursor:pointer;  
+  
+ }
+
+ #division{
+  display: flex;
+}
+
+#izq{
+  width: 50%;
+}
+#dcha{
+  padding-top: 15px;
+  margin-left:180px;
+  width: 25%;
+}
+#descrip-thumbail{
+  width: 25%;
+  padding: 10px;
   }
 
-  #division{
-    display: flex;
-  }
-  #dcha{
-    margin-top: 100px;
-    margin-left: 5px;
-    width: 50%;
-  }
-  #izq{
-    margin-top: 100px;
-
-    width : auto;
-  }
-  #descripcion{
-width: auto;
-  }
+#thumbail{
+  border-radius: 3%;
+}
