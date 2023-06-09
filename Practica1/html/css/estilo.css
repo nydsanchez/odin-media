@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    background: grey;
+  }
+nav ul {
+    list-style:none;
+    text-align:center;
+  }
+ 
+  li{
+    float: left;
+    position: relative;
+    left: 45em;
+    width: 5em;
+    margin-top: 35px;
+  }
+
+  nav ul li a{
+    text-decoration:none;
+    display:block;
+     color: white;
+     font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    color:black;
+  }
+  #sectionOne{
+    background-image: url(..//images/fondo.jpeg);
+    background-size: cover;
+    background-color: transparent;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+
+  #p01{
+    width: 450px;
+  }
+  h1{
+    color: chocolate;
+  }
